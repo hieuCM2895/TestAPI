@@ -20,4 +20,33 @@ public class Employee {
     public int getEmployeeId() {
         return employee_id;
     }
+
+    public void setEmployeeId(int employee_id) {
+        this.employee_id = employee_id;
+    }
+
+    public String getEmployeeName() {
+        return employeeName;
+    }
+
+    public void setEmployeeName(String employeeName) {
+        this.employeeName = employeeName;
+    }
+
+    public double getSalary() {
+        return salary;
+    }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
+
+    public int getSpvrld() {
+        return spvrld;
+    }
+
+    public void setSpvrld(int spvrld) {
+        this.spvrld = spvrld;
+    }
+
 }
