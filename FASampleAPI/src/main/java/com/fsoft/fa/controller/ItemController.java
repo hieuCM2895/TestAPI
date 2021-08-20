@@ -54,15 +54,6 @@ public class ItemController {
         }
     }
 
-    @PutMapping(value = "/update-user/{id}")
-    public Human updateUser(@PathVariable(name = "id") String id, @RequestBody Human human) {
-        try {
-            throw new Exception("Database exception");
-        } catch (Exception e) {
-            throw new ResponseStatusException(HttpStatus.INTERNAL_SERVER_ERROR, e.getMessage(), e);
-        }
-    }
-
     @PostMapping(value = "/create-user")
     public List<Human> createUser(@RequestBody Human human) {
         try {
